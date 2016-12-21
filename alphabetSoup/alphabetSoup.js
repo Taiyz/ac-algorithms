@@ -32,8 +32,21 @@ var result = alphabetSoup("my string oh my");
 console.log(result) // "ghimmnorstyy"
 
 **/
+//Reversing a String using split()
+//var str = 'asdfghjkl';
+//var strReverse = str.split('').reverse().join(''); // 'lkjhgfdsa'
+// split() returns an array on which reverse() and join() can be applied
+//Bonus: use === operator to test if the original string was palindrome.
+
+
+// Input: any string of all letters
+// Output: a string, with the containing letters in alpha order
 
 function alphabetSoup(str) {
+//examine the string for its individual letters, break up the 
+//reorder the string 
+//return the string
+//
 	//Your code here
 	
 }

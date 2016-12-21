@@ -37,9 +37,15 @@ console.log(result) // -1
 
 **/
 
+//Input: two numbers
+//Output: evaluating the relationship between two numbers, true if a is bigger, false if a smaller, 0 if a and b are equal,
+//and 
+
 
 
 function isBigger(a, b) {
 	//Your code here
 	
 }
+
+function isBigger(2,5);
