@@ -16,4 +16,15 @@
 
 function cyclicRotation(arr, rotation){
     //Your code here...
+    for (var i =0; i < rotation; i++){
+      //remove element from end of array
+        var arrayElement = arr.pop();
+        // place element at beginning of array
+        arr.unshift(arrayElement);
 }
+return arr;
+}
+var myArray = [1,2,3,4,5,6,7,8,9];
+
+var result = cyclicRotation(myArray, 5);
+console.log(result);
